@@ -1,13 +1,8 @@
-const userOne ={
-    mail:"shubham@gmail.com",
-    upi:"shubham@ybl"
-}
+const name="Shubham Mahesh Karjini"
 
-console.log(userOne.mail)
+const arr = name.split(" ") 
+console.log(arr);
 
-const userTwo = userOne 
 
-userTwo.mail = "shubham2@gmail.com"
 
-console.log(userOne.mail)
-console.log(userTwo.mail)
+
