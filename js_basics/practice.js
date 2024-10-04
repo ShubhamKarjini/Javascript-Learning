@@ -1,8 +1,6 @@
-const name="Shubham Mahesh Karjini"
+const min=10, max=20
 
-const arr = name.split(" ") 
-console.log(arr);
-
+console.log(Math.floor(Math.random()*(max-min+1))+min) // Math.random() give elements between 0,1
 
 
 
