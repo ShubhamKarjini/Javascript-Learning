@@ -15,7 +15,7 @@ console.log("A",arr);
 console.log(arr.slice(1,3));
 console.log("B",arr);
 
-console.log((arr.splice(1,3)));//splice starts from "index 1" and the second argument i.e 3 tells to delete three elements from '1'
+console.log((arr.splice(1,3)));//splice starts from "index 1" and 3 tells to delete three elements from index '1'
 console.log("C",arr);
 
 
