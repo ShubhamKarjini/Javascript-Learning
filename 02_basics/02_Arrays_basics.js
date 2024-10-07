@@ -2,7 +2,8 @@ const a = ["superman","batman","Wonderwomen"]
 const b = ["Ironman","Thor","Hulk"]
 
 //a.push(b) //[ 'superman', 'batman', 'Wonderwomen', [ 'Ironman', 'Thor', 'Hulk' ] ]
-// const c = a.concat(b)//[ 'superman', 'batman', 'Wonderwomen', 'Ironman', 'Thor', 'Hulk' ]
+const c = a.concat(b)//[ 'superman', 'batman', 'Wonderwomen', 'Ironman', 'Thor', 'Hulk' ]
+console.log(c);
 const new_heros = [...a,...b]// This SPREAD operator breaks array and creates elements as individuals
 console.log(new_heros);
 
@@ -14,7 +15,7 @@ console.log(new_heros);
 //console.log(Array.from("Shubham")); //Converts string into an array
 
 let score1 = 100, score2 = 200, score3=300;
-const an_arr = Array.of(score1,score2,score3)
-console.log(an_arr);
+// const an_arr = Array.of(score1,score2,score3)
+// console.log(an_arr);
 
 
