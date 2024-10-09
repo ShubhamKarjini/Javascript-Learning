@@ -28,9 +28,38 @@
 // console.log(userLogin("Shubham")) //if nothing is passed then it is considered as "undefined"
 
 //+++++++++ Code3+++++++++++
-function userLogin(username="USER"){//Sets defualt value for the parameter if no argument is passed.
-    return `${username} just logged in`
-}
-console.log(userLogin("Shubham")) //if nothing is passed then it is considered as "undefined"
+// function userLogin(username="USER"){//Sets defualt value for the parameter if no argument is passed.
+//     return `${username} just logged in`
+// }
+// console.log(userLogin("Shubham")) //if nothing is passed then it is considered as "undefined"
+
+//++++++++++++++Code4++++++++
+
+// function calculateCartPrice(...num1){//REST/SPREAD operator. To hold multiple values, we use this operator
+//     return num1//returns an array
+// }
+
+// console.log(calculateCartPrice(100,200,300))
+
+//+++++++code5+++++++++++
+
+// const ob = {
+//     username : "Shubham",
+//     price : 200
+// }
+
+// function myObject(kuchbhiobject){
+//     console.log(`username is ${kuchbhiobject.username} and price is ${kuchbhiobject.price}`);   
+// }
+
+// myObject(ob)
 
 
+//++++++++++++code6++++++++++
+
+
+// function getArrayValue(anyArray){
+//     return anyArray[1]
+// }
+
+// console.log(getArrayValue([100,200,300,400]));
