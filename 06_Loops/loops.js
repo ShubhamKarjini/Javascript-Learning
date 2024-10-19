@@ -99,3 +99,18 @@ let sum = 0
 //     console.log(` ${item.language} is the file and the extension is ${item.filename} `);
     
 //  } )
+
+//for each cannot return values but filter can return values
+
+//++++++ filter()+++++++
+
+// const num = [1,2,3,4,5,6,7,8,9]
+// const newNum = num.filter( (item)=>{
+//     return item>4
+// } )
+
+// console.log(newNum);
+
+
+
+
