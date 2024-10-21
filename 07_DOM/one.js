@@ -1,0 +1,1 @@
+// in js ".innerHTML" is used for element manipulation and ".getElementById" is used for accessing element
